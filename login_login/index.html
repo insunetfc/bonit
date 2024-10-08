@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>로그인 &lsaquo; (주)플라카 &#8212; 워드프레스</title>
+	
+    <style type="text/css">body.login div#login h1 a {
+            background-image: url(/wp-content/uploads/2024/09/34534543.jpg);
+            /*padding-bottom: 2px;*/
+            width:100%;
+            background-size: 100%;
+            height: 150px;
+        }</style>
+<meta name="robots" content="max-image-preview:large, noindex, noarchive">
+<link rel="stylesheet" id="dashicons-css" href="/wp-includes/css/dashicons.min.css?ver=6.6.2" media="all">
+<link rel="stylesheet" id="buttons-css" href="/wp-includes/css/buttons.min.css?ver=6.6.2" media="all">
+<link rel="stylesheet" id="forms-css" href="/wp-admin/css/forms.min.css?ver=6.6.2" media="all">
+<link rel="stylesheet" id="l10n-css" href="/wp-admin/css/l10n.min.css?ver=6.6.2" media="all">
+<link rel="stylesheet" id="login-css" href="/wp-admin/css/login.min.css?ver=6.6.2" media="all">
+	<meta name="referrer" content="strict-origin-when-cross-origin">
+		<meta name="viewport" content="width=device-width">
+	<link rel="icon" href="/wp-content/uploads/2024/09/546645456-150x150.jpg" sizes="32x32">
+<link rel="icon" href="/wp-content/uploads/2024/09/546645456-300x300.jpg" sizes="192x192">
+<link rel="apple-touch-icon" href="/wp-content/uploads/2024/09/546645456-300x300.jpg">
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2024/09/546645456-300x300.jpg">
+	</head>
+	<body class="login no-js login-action-login wp-core-ui  locale-ko-kr">
+	<script>document.body.className = document.body.className.replace('no-js','js');</script>
+
+		<div id="login">
+		<h1><a href="/">(주)플라카</a></h1>
+	
+		<form name="loginform" id="loginform" action="http://tsct2021.cafe24.com/login_login/" method="post">
+			<p>
+				<label for="user_login">사용자명 또는 이메일 주소</label>
+				<input type="text" name="log" id="user_login" class="input" value="" size="20" autocapitalize="off" autocomplete="username" required="required">
+			</p>
+
+			<div class="user-pass-wrap">
+				<label for="user_pass">비밀번호</label>
+				<div class="wp-pwd">
+					<input type="password" name="pwd" id="user_pass" class="input password-input" value="" size="20" autocomplete="current-password" spellcheck="false" required="required">
+					<button type="button" class="button button-secondary wp-hide-pw hide-if-no-js" data-toggle="0" aria-label="비밀번호 보이기">
+						<span class="dashicons dashicons-visibility" aria-hidden="true"></span>
+					</button>
+				</div>
+			</div>
+						<p class="forgetmenot"><input name="rememberme" type="checkbox" id="rememberme" value="forever"> <label for="rememberme">기억하기</label></p>
+			<p class="submit">
+				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="로그인">
+									<input type="hidden" name="redirect_to" value="http://tsct2021.cafe24.com/wp-admin/">
+									<input type="hidden" name="testcookie" value="1">
+			</p>
+		</form>
+
+					<p id="nav">
+				<a class="wp-login-lost-password" href="/login_login/?action=lostpassword">비밀번호를 잊으셨나요?</a>			</p>
+			<script>function wp_attempt_focus() {setTimeout( function() {try {d = document.getElementById( "user_login" );d.focus(); d.select();} catch( er ) {}}, 200);}
+wp_attempt_focus();
+if ( typeof wpOnload === 'function' ) { wpOnload() }</script>
+		<p id="backtoblog">
+			<a href="/">&larr; (주)플라카(으)로 가기</a>		</p>
+			</div>
+				<div class="language-switcher">
+				<form id="language-switcher" method="get">
+
+					<label for="language-switcher-locales">
+						<span class="dashicons dashicons-translation" aria-hidden="true"></span>
+						<span class="screen-reader-text">
+							언어						</span>
+					</label>
+
+					<select name="wp_lang" id="language-switcher-locales"><option value="en_US" lang="en" data-installed="1">English (United States)</option>
+<option value="ko_KR" lang="ko" selected data-installed="1">한국어</option></select>
+					
+					
+					
+						<input type="submit" class="button" value="변경">
+
+					</form>
+				</div>
+				<script src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script id="zxcvbn-async-js-extra">var _zxcvbnSettings = {"src":"\/wp-includes\/js\/zxcvbn.min.js"};</script>
+<script src="/wp-includes/js/zxcvbn-async.min.js?ver=1.0" id="zxcvbn-async-js"></script>
+<script src="/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+<script src="/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
+</script>
+<script id="password-strength-meter-js-extra">var pwsL10n = {"unknown":"비밀번호 강도 알 수 없음","short":"매우 약함","bad":"약함","good":"보통","strong":"강함","mismatch":"불일치"};</script>
+<script id="password-strength-meter-js-translations">( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2024-09-06 05:36:46+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=1; plural=0;","lang":"ko_KR"},"%1$s is deprecated since version %2$s! Use %3$s instead. Please consider writing more inclusive code.":["%2$s버전부터 %1$s을(를) 사용하지 않습니다! 대신 %3$s을(를) 사용하세요. 더 포괄적인 코드 쓰기를 고려해주세요."]}},"comment":{"reference":"wp-admin\/js\/password-strength-meter.js"}} );</script>
+<script src="/wp-admin/js/password-strength-meter.min.js?ver=6.6.2" id="password-strength-meter-js"></script>
+<script src="/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script id="wp-util-js-extra">var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};</script>
+<script src="/wp-includes/js/wp-util.min.js?ver=6.6.2" id="wp-util-js"></script>
+<script id="user-profile-js-extra">var userProfileL10n = {"user_id":"0","nonce":"fcee9510e1"};</script>
+<script id="user-profile-js-translations">( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2024-09-06 05:36:46+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=1; plural=0;","lang":"ko_KR"},"Your new password has not been saved.":["새 비밀번호가 저장되지 않았습니다."],"Show":["보이기"],"Confirm use of weak password":["약한 비밀번호 사용 확인"],"Hide password":["비밀번호 숨기기"],"Show password":["비밀번호 보이기"],"Hide":["숨기기"],"The changes you made will be lost if you navigate away from this page.":["이 페이지에서 다른 곳으로 이동하면 변경 사항이 손실됩니다."]}},"comment":{"reference":"wp-admin\/js\/user-profile.js"}} );</script>
+<script src="/wp-admin/js/user-profile.min.js?ver=6.6.2" id="user-profile-js"></script>
+			<script>/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);</script>
+				</body>
+	</html>
